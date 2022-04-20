@@ -4,7 +4,7 @@
 
 ## Using the Scraper
 
-For using the scraper run the following command
+For using the scraper run the following commands
 
 ```python
 cd scraper
