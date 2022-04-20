@@ -40,4 +40,7 @@ python -m flask run
 Then open your web browser and open localhost:5000
 
 ![Home](https://github.com/stalker-john/google-playstore-reviews-analyzer/blob/main/web-app/static/images/ss_home.png?raw=true)
+
+Enter any Google Playstore app's API ID. For reference we have used Fi Money (api id: com.epifi.paisa)
+
 ![Output](https://github.com/stalker-john/google-playstore-reviews-analyzer/blob/main/web-app/static/images/ss_output.png?raw=true)
