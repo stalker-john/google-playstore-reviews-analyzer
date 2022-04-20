@@ -1,0 +1,16 @@
+.wrapper {
+	display: inline-block;
+	overflow: hidden; /* cropping larger images */
+	vertical-align: top;
+	position: relative;
+}
+.wrapper--img {
+	/* @include transform(translate(-50%, -50%)); */
+	height: auto; /* "if you add the image via JavaScript, the img needs to have width: auto; and height: auto; to work in IE 8, 9, or 10." */
+	min-height: 100%;
+	min-width: 100%;
+	width: auto; /* same as with height: auto; */
+	position: relative;
+	top: 50%;
+	left: 50%;
+}

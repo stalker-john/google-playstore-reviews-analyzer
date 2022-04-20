@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{{ url_for('static',filename='styles/form.css') }}"
+		/>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="flex-child magenta">
+				<image
+					src="{{ url_for('static',filename='images/Negative_Phrases.png') }}"
+				/>
+			</div>
+
+			<div class="flex-child green">
+				<p>Most relevant issues:</p>
+				{% for your_list_element in mylist %}
+				<li>{{ your_list_element }}</li>
+				{% endfor %}
+			</div>
+		</div>
+	</body>
+</html>
